@@ -2,11 +2,160 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Кэт энерджи</title>
   </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+  <body class="page__body">
+
+    <header class="main-header">
+
+      <img class="main-header__icon" src="img/house-icon.svg" width="40" height="40" alt="Логотип">
+      <img class="main-header__name" src="img/house-icon.svg" width="40" height="40" alt="Cat energy">
+
+    <nav class="main-nav main-nav--nojs">
+      <div class="container">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="main-nav-list">
+          <li class="main-nav-list__item">
+            <a class="main-nav-list__link main-nav-list__link--current">Главная</a>
+          </li>
+          <li class="main-nav-list__item">
+            <a class="main-nav-list__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="main-nav-list__item">
+            <a class="main-nav-list__link" href="select-product.html">Подбор программы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="header-main">
+        <h1 class="header-main__headline">Функциональное питание для котов</h1>
+        <h2 class="header-main__slogan">Занялся собой? Займись котом!</h2>
+        <img class="header-main__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Hero">
+        <button class="header-main__button" type="button">
+          <span class="visually-hidden">Подобрать программу</span>
+        </button>
+      </section>
+    </div>
+    </header>
+
+    <main class="page__main">
+      <div class="container">
+        <section class="features">
+          <img class="features__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Похудение">
+          <h2 class="features__headline">Похудение</h2>
+          <p class="features__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+          <a class="features__link" href="catalog.html">Каталог Slim <img class="features__link-image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Каталог Slim"></a>
+        </section>
+      </div>
+
+      <div class="container">
+        <section class="features">
+          <img class="features__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Набор массы">
+          <h2 class="features__headline">Набор массы</h2>
+          <p class="features__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+          <a class="features__link" href="catalog.html">Каталог Pro <img class="features__link-image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Каталог Pro"></a>
+        </section>
+      </div>
+
+      <div class="container">
+        <section class="how-it-works">
+          <ul class="how-it-works__list">
+
+            <li class="how-it-works__item">
+              <img class="how-it-works__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Иконка">
+              <p class="how-it-works__text" class="">Функциональное питание содержит только полезные питательные вещества.</p>
+            </li>
+
+            <li class="how-it-works__item">
+              <img class="how-it-works__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Иконка">
+              <p class="how-it-works__text" class="">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
+            </li>
+
+            <li class="how-it-works__item">
+              <img class="how-it-works__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Иконка">
+              <p class="how-it-works__text" class="">Замените один-два приема обычной еды на наше функциональное питание.</p>
+            </li>
+
+            <li class="how-it-works__item">
+              <img class="how-it-works__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Иконка">
+              <p class="how-it-works__text" class="">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+            </li>
+
+          </ul>
+        </section>
+      </div>
+
+      <div class="container">
+        <section class="example">
+          <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
+
+          <ul class="example__results">
+
+            <li class="example__results-item">
+              <h3 class="example__results-headline">5 кг</h3>
+              <p class="example__results-text">Снижение веса</p>
+            </li>
+
+            <li class="example__results-item">
+              <h3 class="example__results-headline">60 дней</h3>
+              <p class="example__results-text">Затрачено времени</p>
+            </li>
+
+          </ul>
+
+          <h4 class="example__sub-headline">Затраты на питание: 15 000 руб.</h4>
+
+          <div class="example__slider">
+            <!-- Скрипт? -->
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section class="contacts">
+          <h4 class="contacts__headline">Приглашаем к сотрудничеству дилеров!</h4>
+          <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+          <div class="contacts__map">
+            <!-- Карта -->
+          </div>
+        </section>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+
+      <div class="container">
+        <img class="footer__logo" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Логотип">
+
+        <ul class="social-list">
+          <li class="social-list__item">
+            <img class="social-list__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="VK">
+          </li>
+
+          <li class="social-list__item">
+            <img class="social-list__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="YouTube">
+          </li>
+
+          <li class="social-list__item">
+            <img class="social-list__image" src="img/welcome-to-sedona.svg" width="282" height="214" alt="Telegram">
+          </li>
+        </ul>
+
+        <a class="htmlacademy" href="https://htmlacademy.ru">
+          <p class="htmlacademy__text">HTML Academy</p>
+          <img class="htmlacademy__logo" src="img/welcome-to-sedona.svg" width="282" height="214" alt="HTML Academy логотип">
+        </a>
+      </div>
+
+    </footer>
 
   </body>
 </html>
